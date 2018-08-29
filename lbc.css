@@ -1,0 +1,37 @@
+body {
+    overflow: auto !important;
+    background: #005489 !important;
+}
+
+iframe {
+	display: none;
+}
+
+img[src^="https://ad.atdmt.com"],
+img[src^="https://load77.exelator.com"] {
+	display: none;
+}
+
+.radioplayer,
+.radioplayer-localwrapper,
+.radioplayer-plugin {
+	height: auto !important;
+}
+
+.radioplayer-plugin {
+	background: none !important;
+}
+
+.radioplayer-prerolloverlay { 
+	diaply: none;
+}
+
+#listen_again_results,
+#listen_again_results_container {
+	height: auto !important;
+	overflow: auto !important;
+}
+
+.advert.mpu {
+	display: none !important;
+}
